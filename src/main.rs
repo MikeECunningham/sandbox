@@ -33,5 +33,5 @@ fn main() {
         to.insert(*id);
     });
 
-    println!("time: {}ms", timer.elapsed().as_millis());
+    println!("time: {:?}", timer.elapsed());
 }
